@@ -1,6 +1,6 @@
-# cssstats-api
+# cssstats-api [![Build Status](https://travis-ci.org/cssstats/api.svg?branch=master)](https://travis-ci.org/cssstats/api)
 
-Proof of concept for the [cssstats.com](http://cssstats.com) API.
+[cssstats.com](http://cssstats.com) API.
 
 ## Installation
 
