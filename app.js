@@ -12,8 +12,27 @@ var mutations = require('./routes/mutations')
 
 var app = express()
 
+
 app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'hbs')
+
+var cors = {
+  origin: [
+    'http://localhost:8080', 'http://cssstats.com', 'https://beta.cssstats.com',
+    'http://cssstats-pro.herokuapp.com'
+  ],
+  default: 'http://cssstats.com'
+}
+
+app.use(function (req, res, next) {
+  var origin = cors.origin.indexOf((req.headers.origin || '').toLowerCase()) > -1 ? req.headers.origin : cors.default
+
+  res.header('Access-Control-Allow-Origin', origin)
+  res.setHeader('Access-Control-Allow-Methods', 'GET')
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With,content-type')
+
+  next()
+})
 
 app.use(logger('dev'))
 app.use(bodyParser.json())
