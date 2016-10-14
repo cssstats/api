@@ -7,28 +7,28 @@
     "test": "mocha tests"
   },
   "dependencies": {
-    "body-parser": "~1.15.0",
-    "cookie-parser": "~1.4.1",
-    "cssstats": "^3.0.0-beta.1",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "cssstats": "^3.0.0-beta.2",
     "debug": "~2.2.0",
-    "express": "~4.13.4",
+    "express": "~4.14.0",
     "get-css": "^1.2.1",
     "get-query-param": "^1.0.0",
-    "hbs": "~4.0.0",
+    "hbs": "~4.0.1",
     "http-status-codes": "^1.0.6",
-    "immutable-css": "^1.1.1",
+    "immutable-css": "^1.1.2",
     "is-blank": "1.1.0",
     "is-css": "^1.0.0",
     "is-present": "1.0.0",
-    "is-url": "^1.2.1",
+    "is-url": "^1.2.2",
     "morgan": "~1.7.0",
-    "normalize-url": "^1.4.1",
-    "postcss": "^5.0.19",
-    "psi": "^2.0.3",
+    "normalize-url": "^1.6.1",
+    "postcss": "^5.2.4",
+    "psi": "^2.0.4",
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
-    "supertest": "^1.2.0"
+    "mocha": "^3.1.2",
+    "supertest": "^2.0.0"
   }
 }
