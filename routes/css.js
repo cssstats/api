@@ -14,7 +14,7 @@ router.get('/', function (req, res, next) {
   var errors = validateQueryParams(req.query)
 
   if (isBlank(errors)) {
-    var url = normalizeUrl(req.query.url)
+    var url = normalizeUrl(req.query.url, { stripWWW: false })
     getCss(url)
       .then(function (css) {
         res.json({ css: css })
