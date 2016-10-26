@@ -19,7 +19,7 @@ app.set('view engine', 'hbs')
 var cors = {
   origin: [
     'http://localhost:8080', 'http://cssstats.com', 'https://beta.cssstats.com',
-    'http://cssstats-pro.herokuapp.com'
+    'http://cssstats-pro.herokuapp.com', 'http://localhost:3000'
   ],
   default: 'http://cssstats.com'
 }
