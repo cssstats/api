@@ -19,6 +19,7 @@ router.get('/', function (req, res, next) {
     getCss(url)
       .then(function (css) {
         res.json({
+          title: css.title,
           stats: cssStats(css.css, {
             specificityGraph: true,
             importantDeclarations: true,
