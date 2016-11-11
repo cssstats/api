@@ -9,8 +9,8 @@
   "dependencies": {
     "body-parser": "~1.15.2",
     "cookie-parser": "~1.4.3",
-    "cssstats": "^3.0.0-beta.2",
-    "debug": "~2.2.0",
+    "cssstats": "^3.0.0",
+    "debug": "~2.3.2",
     "express": "~4.14.0",
     "get-css": "^1.2.1",
     "get-query-param": "^1.0.0",
@@ -22,13 +22,13 @@
     "is-present": "1.0.0",
     "is-url": "^1.2.2",
     "morgan": "~1.7.0",
-    "normalize-url": "^1.6.1",
-    "postcss": "^5.2.4",
+    "normalize-url": "^1.8.0",
+    "postcss": "^5.2.5",
     "psi": "^2.0.4",
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
     "mocha": "^3.1.2",
-    "supertest": "^2.0.0"
+    "supertest": "^2.0.1"
   }
 }
